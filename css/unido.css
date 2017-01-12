@@ -6,17 +6,7 @@
 /* moved by compressor */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 /* moved by compressor */
-@import url('../..//fileadmin/templates/UNIDO-16/css/font-awesome.css');
-/* moved by compressor */
-@import url('../..//fileadmin/templates/UNIDO-16/css/animate.css');
-/* moved by compressor */
-@import url('../..//fileadmin/templates/UNIDO-16/css/owl.css');
-/* moved by compressor */
-@import url('../..//fileadmin/templates/UNIDO-16/css/jquery.mCustomScrollbar.min.css');
-/* moved by compressor */
-@import url('../..//fileadmin/templates/UNIDO-16/css/jquery.fancybox.css');
-/* moved by compressor */
-@import url('../..//fileadmin/templates/UNIDO-16/css/hover.css');
+@import url('font-awesome-4.7.0/css');
 /* moved by compressor */
 @charset "UTF-8";
 /* default styles for extension "tx_indexedsearch" */
@@ -8002,7 +7992,7 @@ p {
     position: relative;
     width: 100%;
     padding: 0px 0px;
-    background: #1c1c1c url('../..//fileadmin/templates/UNIDO-16/images/background/bg-pattern.jpg') left top repeat;
+    background: #1c1c1c url('img/background/bg-pattern.jpg') left top repeat;
 }
 
 .boxed-layout .page-outer-container {
