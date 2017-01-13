@@ -6,7 +6,7 @@
 /* moved by compressor */
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
 /* moved by compressor */
-@import url('font-awesome-4.7.0/css');
+@import url('../font-awesome-4.7.0/css');
 /* moved by compressor */
 @charset "UTF-8";
 /* default styles for extension "tx_indexedsearch" */
@@ -7992,7 +7992,7 @@ p {
     position: relative;
     width: 100%;
     padding: 0px 0px;
-    background: #1c1c1c url('img/background/bg-pattern.jpg') left top repeat;
+    background: #1c1c1c url('../img/background/bg-pattern.jpg') left top repeat;
 }
 
 .boxed-layout .page-outer-container {
@@ -8603,7 +8603,7 @@ ul, li {
 .main-header .lower-section .logo {
     position: relative;
     float: left;
-    padding: 20px 0px;
+    padding: 20px 0px;  
 }
 
 .main-header .lower-section .unido50logo {
@@ -8630,6 +8630,7 @@ ul, li {
     display: inline-block;
     max-width: 100%;
     width: 330px;
+    margin-left: -10px;
 }
 
 .main-menu {
@@ -13337,6 +13338,7 @@ img {
 
 .csc-default {
     margin-bottom: 10px;
+    margin-left: -90px;
 }
 
 .csc-default ul {
@@ -23874,8 +23876,8 @@ fieldset[disabled] .btn-danger.active {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.eot?v=4.5.0');
-  src: url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  src: url('../font-awesome-4.7.0/fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../font-awesome-4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../font-awesome-4.7.0fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../..//fileadmin/templates/UNIDO-16/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
